@@ -50,3 +50,9 @@ tertiary colors: darker pink and dark salmon,
 #FFD1D1, rgb(255, 209, 209)
 #FF9494, rgb(255, 148, 148)
 */
+.button.contact {
+    background-color: transparent;
+    color: #FF9494;
+    text-transform: uppercase;
+    border: 2px solid #FF9494;
+  }
