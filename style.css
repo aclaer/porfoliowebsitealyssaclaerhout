@@ -23,6 +23,18 @@ body {
     font-weight: 400;
  }
  img{ width:100%}
+ a {
+    color: #FF9494;
+    text-decoration: none; 
+  }
+  a:hover {
+    color: #025464;
+    text-decoration: underline; 
+  }
+  a:focus {
+    color: #E8AA42;
+    text-decoration: underline;
+  }
 
 /* 
 colors used:
