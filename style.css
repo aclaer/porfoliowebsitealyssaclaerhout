@@ -27,7 +27,11 @@ body {
     color: #FF9494;
     text-decoration: none; 
   }
-  a:hover {
+  a:visited { 
+    color: #ff7f50;
+  }
+  a:hover,
+  a:focus {
     color: #025464;
     text-decoration: underline; 
   }
@@ -35,7 +39,9 @@ body {
     color: #E8AA42;
     text-decoration: underline;
   }
-
+  a:active { 
+    color: #994c30;
+  }
 /* 
 colors used:
 primary color: offwhite, #FFF5E4, rgb(255, 245, 228) 
