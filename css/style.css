@@ -6,7 +6,13 @@ Primary Color, secondary, etc, all shades of pink;
 #FDCEDF
 #F2BED1
 */
-
+header {
+  background-color:plum;
+  padding: 10px;
+  margin: 0 auto;
+  padding: 10px 5px 15px 5px;
+  border-bottom: 3px solid #FDCEDF;
+}
 body {
   background-color: #F9F5F6;
   font-family: 'Jost', sans-serif;
