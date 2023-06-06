@@ -36,7 +36,7 @@
     </header>
     <main>
         <!-- Hero Section -->
-        <div>
+        <div id="hero" class="container">
             <h1> Hello! It's nice to meet you. I'm Alyssa Claerhout</h1>
             <div>
                 I'm a UX/UI designer on a mission to create a more intuitive and creative world.
@@ -44,11 +44,11 @@
         </div>
 
         <!-- Project 1 Section -->
-        <div class="container"> <!-- open row that holds (2) columns for project -->
-            <div><!-- open first column (used for image) -->
+        <div id="work"> <!-- open row that holds (2) columns for project -->
+            <div class="container"><!-- open first column (used for image) -->
             </div><!-- end first column-->
-            <div><!-- open second column (use for text) -->
-                <h3>Discoverly</h3><!-- heading for the project-->
+            <div class="row"><!-- open second column (use for text) -->
+                <h2>Discoverly</h2><!-- heading for the project-->
                 <p><!-- open paragraph -->
                     UX/UI Research and Design: Legitimate in the age of Instant Information.
                     Discoverly was created to connect people with experts from many fields
@@ -63,16 +63,18 @@
         </div><!-- end row that holds (2) columns for project -->
 
         <!-- Project 2 Section -->
-        <div><!-- open first column (used for image) -->
+        <div id="work"><!-- open first column (used for image) -->
         </div><!-- end first column-->
-        <div><!-- open second column (use for text) -->
-            <h3>Hungry Cook</h3><!-- heading for the project-->
+        <div class="container"><!-- open second column (use for text) -->
+            <h2>Pantry Chef</h2><!-- heading for the project-->
+            <div class="row">
+            </div>
             <p><!-- open paragraph -->
                 This app was created to save money and time for busy people wanting to make tasty, home-cooked meals.
             </p><!-- end paragraph -->
             <picture>
-                <source srcset="img/cook-app/sm-png/hungry-cook-home-mobile-small.png" media="(max-width:767px)">
-                <img src="img/cook-app/large-png/hungry-cook-splash-mobile-large.png" alt="Hungry Chef Splash Page">
+                <source srcset="img/cook-app/small-png/sm-splashpage.png" media="(max-width:767px)">
+                <img src="img/cook-app/large-png/lg-splashpage.png" alt="Pantry Chef Splash Page">
             </picture>
             <div></div>
             <a href="" class="button">Learn more</a><!-- button label -->
@@ -82,8 +84,8 @@
     </main>
     <!-- Footer Section-->
     <footer id="contact">
-        <div>
-            <h2>Get in Touch</h2>
+        <div class="container">
+            <h1>Get in Touch</h1>
             <p> Want to work with me? Feel free to reach out!</p>
         </div>
         <div>
