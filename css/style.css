@@ -13,6 +13,11 @@ header {
   padding: 10px 5px 15px 5px;
   border-bottom: 3px solid #FDCEDF;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #F9F5F6;
   font-family: 'Jost', sans-serif;
@@ -104,3 +109,15 @@ a:focus {
 
 }
 
+#social-media-icons svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
