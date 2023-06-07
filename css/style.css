@@ -129,6 +129,7 @@ a:focus {
 
 #work .row { 
   padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+  
 }
 
 #hero h1 {
@@ -139,25 +140,32 @@ a:focus {
   max-width: 250px;
 }
 
-nav {
-  ul {
+nav ul {
     lists-style-type: none;
     padding: 0;
   }
-  li {
+nav li {
     display: inline-block;
   }
-  a {
+nav a {
     padding: 0 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #4a4a4a;
   }
-}
+
 
 #hero {
-  background-color: #ffc5e6
+  background-color: #ffc5e6;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+}
+
+#contact {   /*footer*/
+  background-color: plum;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
