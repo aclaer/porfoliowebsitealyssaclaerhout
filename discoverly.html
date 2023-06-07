@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./img/favicon_io/favicon-16x16.png" rel="shortcut icon">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alyssa Claerhout UX Designer</title>
-    </head>
-    
-    <body>
-            <!-- Header Section -->
-        <header>
-            <img src="./img/logo/alyssa-logo-nobackground.svg" alt="Alyssa Claerhout Logo" class="logo">
-    <div>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./img/favicon_io/favicon-16x16.png" rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alyssa Claerhout UX Designer</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="container">
+        <img src="./img/logo/alyssa-logo-nobackground.svg" alt="Alyssa Claerhout Logo" class="logo">
+        <div>
             <div>
                 <nav>
                     <ul>
@@ -24,179 +25,236 @@
                 </nav>
             </div>
         </div>
-        </header>
-            <main>
-               <div>
-                <div>
-                    <h1>Discoverly</h1>
+    </header>
+    <main>
+        <div>
+            <div>
+                <h1>Discoverly</h1>
+                <div class="container">
                     <picture>
                         <source srcset="img/discoverly/sm-png/high-fid-home-mobile-small.png" media="(max-width:767px)">
-                        <img src="img/discoverly/lg-png/high-fid-mobile-home-large.png" alt="Discoverly Home Page Picture">
-                      </picture>
-                      <p>
-                        The Discoverly app was created as a means for people to easily connect with accurate, reliable information. The primary concern for the design of this app was making an easy and intuitive scheduling system and video chat for an all-in-one experience for the user.    
-                      </p>
+                        <img src="img/discoverly/lg-png/high-fid-mobile-home-large.png"
+                            alt="Discoverly Home Page Picture">
+                    </picture>
+                    <p>
+                        The Discoverly app was created as a means for people to easily connect with accurate, reliable
+                        information. The primary concern for the design of this app was making an easy and intuitive
+                        scheduling system and video chat for an all-in-one experience for the user.
+                    </p>
 
-                      <div>
+                    <div>
                         <h2>Problem</h2>
-                        <p>"Why is finding reliable information so challenging?" "Most of what I find online...I take with a grain of salt."
-                            The goal was to bridge the gap between young professionals and industry experienced experts. There's often a disconnect between what is posted online and accurate information, as well as the physical barrier that is created when humans interact online.
+                        <p>"Why is finding reliable information so challenging?" "Most of what I find online...I take
+                            with a grain of salt."
+                            The goal was to bridge the gap between young professionals and industry experienced experts.
+                            There's often a disconnect between what is posted online and accurate information, as well
+                            as the physical barrier that is created when humans interact online.
                             Discoverly provides a means of connection between humans and accurate information.
                         </p>
-                      </div>
-                      
-                      <div>
-                        <h2>Understand</h2>
-                        <picture>
-                            <source srcset="img/discoverly/sm-png/research-notes-sm.png" media="(max-width:767px)">
-                            <img src="img/discoverly/lg-png/research-notes-large.png" alt="Discoverly Home Page Picture">
-                          </picture>
-                        <p>I conducted user interviews to build new personas and to inform the design. I created 13 open-ended questions, focusing on our users educational values, information collection habits, and their internet usage.
-                            In 2 days I recruited and interviewed 3 users remotely.
-                        </p>
                     </div>
+                </div>
+
+                <div>
+                    <h2>Understand</h2>
+                    <picture>
+                        <source srcset="img/discoverly/sm-png/research-notes-sm.png" media="(max-width:767px)">
+                        <img src="img/discoverly/lg-png/research-notes-large.png" alt="Discoverly Home Page Picture">
+                    </picture>
+                    <p>I conducted user interviews to build new personas and to inform the design. I created 13
+                        open-ended questions, focusing on our users educational values, information collection habits,
+                        and their internet usage.
+                        In 2 days I recruited and interviewed 3 users remotely.
+                    </p>
+                </div>
+                <p>
+                    Most used the internet for quick inquiries include unprecedented questions that came up periodically
+                    throughout the day, such as trivial information or assistance with work/school related questions.
+                    Users typically regarded the legitimacy of information found online with a laisezz fair attitude:
+                    "feeling it out" or as one user put it, "Does anyone [check for accuracy]?"
+                </p>
+
+                <div>
+                    <h2>Observe</h2>
+                    <p>On the outset of the project I created a series of survey questions regarding users
+                        internet-based information gathering habits.
+                        It included 6 multiple choice questions. 17 individuals responded to the survey.
+                        The quantitative data varied greatly amongst what users were actually using the internet to
+                        search for. This was surprising as I had previously hypothesized that while many subjects would
+                        be represented, there would be clear conclusions.
+                    </p>
+                    <div>
+                        <ul>
+                            <li>50% of Respondents preferred Text communication over email and in- person. </li>
+                            <li>Over 50% searched the internet 1-4x per day.</li>
+                            <li>82% used the internet to search from home. 56% used the internet between 12-6pm. </li>
+                            <li>Purpose for internet searching varied greatly, but the greatest proportion 32% said that
+                                they most often used it for medical questions.</li>
+                            <li>Top complaints about communicating virtually included Lack of in-person connection, as
+                                well as planning & scheduling a time.</li>
+                        </ul>
+                    </div>
+                    <h2>Ideate</h2>
+                    <h3>Understanding the User</h3>
+                    <p>Before sketching out prototypes I wanted to set a clear picture of who the app would be created
+                        for.
+                    </p>
+                    <div>
+                        <div>
                             <p>
-                                Most used the internet for quick inquiries include unprecedented questions that came up periodically throughout the day, such as trivial information or assistance with work/school related questions.
-Users typically regarded the legitimacy of information found online with a laisezz fair attitude: "feeling it out" or as one user put it, "Does anyone [check for accuracy]?"
+                                I created:
                             </p>
-
-                    <div>
-                        <h2>Observe</h2>
-                                <p>On the outset of the project I created a series of survey questions regarding users internet-based information gathering habits.
-                                    It included 6 multiple choice questions. 17 individuals responded to the survey.
-                                    The quantitative data varied greatly amongst what users were actually using the internet to search for. This was surprising as I had previously hypothesized that while many subjects would be represented, there would be clear conclusions.
-                                </p>
-                                <div>
-                                        <ul>
-                                            <li>50% of Respondents preferred Text communication over email and in- person. </li>
-                                            <li>Over 50% searched the internet 1-4x per day.</li>
-                                            <li>82% used the internet to search from home. 56% used the internet between 12-6pm. </li>
-                                            <li>Purpose for internet searching varied greatly, but the greatest proportion 32% said that they most often used it for medical questions.</li>
-                                            <li>Top complaints about communicating virtually included Lack of in-person connection, as well as planning & scheduling a time.</li>
-                                        </ul>
-                                </div>
-                        <h2>Ideate</h2>
-                        <h3>Understanding the User</h3>
-                        <p>Before sketching out prototypes I wanted to set a clear picture of who the app would be created for.
-                        </p>
-                        <div>
-                            <div>
-                                <p>
-                                    I created:
-                                </p>
-                            </div>
-                            <ul>
-                                <li>2 personas to represent the majority of users who will be using this application.</li>
-                                <li>These personas are based upon the extensive research of competitor apps, and the surveys and interviews conducted previously.</li>
-                                <li>The users' goals, motivations, pain points, and common lifestyles were combined to create these profiles and are used to drive the app design and development.</li>
-                            </ul>
                         </div>
-                        <p>I used these personas to direct the vision.</p>
-                        <picture>
-                            <source srcset="img/discoverly/sm-png/sylvia-persona-pic-small.png" media="(max-width:767px)">
-                            <img src="img/discoverly/lg-png/sylvia-persona-pic-large.png" alt="User Sylvia's Persona">
-                        </picture>
                         <ul>
-                            <li>Age: 26 years old</li>
-                            <li>Occupation: Administrative Assistant</li>
-                            <li>Location: Seattle, Washington</li>
+                            <li>2 personas to represent the majority of users who will be using this application.</li>
+                            <li>These personas are based upon the extensive research of competitor apps, and the surveys
+                                and interviews conducted previously.</li>
+                            <li>The users' goals, motivations, pain points, and common lifestyles were combined to
+                                create these profiles and are used to drive the app design and development.</li>
                         </ul>
-                        <p>Sylvia is living with her spouse and they've just moved into a new apartment. She often works 50+ hours per week. Elise and her spouse love to travel. She really just wants to do well at her job so that she can get a promotion and work less hours.
-                        </p>
-                        <picture>
-                            <source srcset="img/discoverly/sm-png/thomas-persona-pic-small.png" media="(max-width:767px)">
-                            <img src="img/discoverly/lg-png/thomas-persona-pic-large.png" alt="User Thomas' Persona">
-                        </picture>
-                        <ul>
-                            <li>Age: 34 years old</li>
-                            <li>Occupation: Postgraduate Student</li>
-                            <li>Location: York, England</li>
-                        </ul>
-                        <p>A graduate student in England, Thomas is originally from the US. He has a lot of very specific history questions that are often unrelated to his coursework, but that indirectly benefit his studies.
-                        </p> 
-                        <div>   
-                            <h3>User Journey</h3>
-                                <p>I created the user journey to to catalogue our user's process. Creating a journey map allowed us to fully understand the interactions and thoughts that users complete while using the app. It provided us a foundation in which we could build an app that would better serve the user and their needs.
-                                </p>
-                                <p>One of the journey maps that I created was to exemplify the journey our user, Sylvia used for her professional development at work.
-                                </p>
-                        </div> 
-                        <picture>
-                            <source srcset="img/discoverly/sm-png/sylvia-user-journey-sm.png" media="(max-width:767px)">
-                            <img src="img/discoverly/lg-png/sylvia-user-journey-lg.png" alt="User Thomas' Persona">
-                        </picture>
-                        <div>
-                            <p>In creating this user journey map I was able to reveal the importance of users ability to have easy access to notes and a "shareable" option through the app, further enriching the user's experience.
-                            </p>
-                        </div>
-                        <div>
-                            <p>I also created a user flow demonstrating the process for "Sharing" an expert's profile. This user flow was instrumental in deciding placement of the contact information.
-                            </p>
-                            <picture>
-                                <source srcset="img/discoverly/sm-png/user-flow-sm.png" media="(max-width:767px)">
-                                <img src="img/discoverly/lg-png/user-flow-lg.png" alt="User Thomas' Persona">
-                            </picture>
-                        </div>
                     </div>
+                    <p>I used these personas to direct the vision.</p>
+                    <picture>
+                        <source srcset="img/discoverly/sm-png/sylvia-persona-pic-small.png" media="(max-width:767px)">
+                        <img src="img/discoverly/lg-png/sylvia-persona-pic-large.png" alt="User Sylvia's Persona">
+                    </picture>
+                    <ul>
+                        <li>Age: 26 years old</li>
+                        <li>Occupation: Administrative Assistant</li>
+                        <li>Location: Seattle, Washington</li>
+                    </ul>
+                    <p>Sylvia is living with her spouse and they've just moved into a new apartment. She often works 50+
+                        hours per week. Elise and her spouse love to travel. She really just wants to do well at her job
+                        so that she can get a promotion and work less hours.
+                    </p>
+                    <picture>
+                        <source srcset="img/discoverly/sm-png/thomas-persona-pic-small.png" media="(max-width:767px)">
+                        <img src="img/discoverly/lg-png/thomas-persona-pic-large.png" alt="User Thomas' Persona">
+                    </picture>
+                    <ul>
+                        <li>Age: 34 years old</li>
+                        <li>Occupation: Postgraduate Student</li>
+                        <li>Location: York, England</li>
+                    </ul>
+                    <p>A graduate student in England, Thomas is originally from the US. He has a lot of very specific
+                        history questions that are often unrelated to his coursework, but that indirectly benefit his
+                        studies.
+                    </p>
                     <div>
-                        <h2>Prototype</h2>
-                        <h3>Sketches</h3>
-                        <p>I began by using paper and pen to draw low-fidelity wireframes to quickly make fundamental design decisions that would help hasten the design process.
-
-                            In creating these initial sketches I consulted with the initial user interviews, competitive analyses, business goals, and heuristic guidelines.
-                            
-                            Having this previous research helped to effectively design the app in a way that was not only more appealing and usable to the user, but also more cost effective--mitigating the need for more expensive changes later in the development of the app.
-                            
-                            I used these sketches throughout the rest of the app design to ensure that we were making progress and furthering the design and vision of Discoverly.
+                        <h3>User Journey</h3>
+                        <p>I created the user journey to to catalogue our user's process. Creating a journey map allowed
+                            us to fully understand the interactions and thoughts that users complete while using the
+                            app. It provided us a foundation in which we could build an app that would better serve the
+                            user and their needs.
                         </p>
-                        <picture>
-                            <source srcset="img/discoverly/sm-png/sketches-small.png" media="(max-width:767px)">
-                            <img src="img/discoverly/lg-png/sketches-large.png" alt="Low Fidelity Sketches">
-                        </picture>
-                        <h3>Wireframes</h3>
-                        <p>Using Figma, I translated my first sketches into mid-fidelity wireframes. These gave me a better sense of placement and were much easier to use with user testing.
-
-                            Then, I polished these renditions by adding relevant imagery, and color, beginning to develop the style guide.
-                            
-                            I tested the prototypes throughout the design process, and this allowed for continual improvements, and avoided any late-stage, drastic changes.
+                        <p>One of the journey maps that I created was to exemplify the journey our user, Sylvia used for
+                            her professional development at work.
                         </p>
                     </div>
+                    <picture>
+                        <source srcset="img/discoverly/sm-png/sylvia-user-journey-sm.png" media="(max-width:767px)">
+                        <img src="img/discoverly/lg-png/sylvia-user-journey-lg.png" alt="User Thomas' Persona">
+                    </picture>
+                    <div>
+                        <p>In creating this user journey map I was able to reveal the importance of users ability to
+                            have easy access to notes and a "shareable" option through the app, further enriching the
+                            user's experience.
+                        </p>
+                    </div>
+                    <div>
+                        <p>I also created a user flow demonstrating the process for "Sharing" an expert's profile. This
+                            user flow was instrumental in deciding placement of the contact information.
+                        </p>
+                        <picture>
+                            <source srcset="img/discoverly/sm-png/user-flow-sm.png" media="(max-width:767px)">
+                            <img src="img/discoverly/lg-png/user-flow-lg.png" alt="User Thomas' Persona">
+                        </picture>
+                    </div>
+                </div>
+                <div>
+                    <h2>Prototype</h2>
+                    <h3>Sketches</h3>
+                    <p>I began by using paper and pen to draw low-fidelity wireframes to quickly make fundamental design
+                        decisions that would help hasten the design process.
+
+                        In creating these initial sketches I consulted with the initial user interviews, competitive
+                        analyses, business goals, and heuristic guidelines.
+
+                        Having this previous research helped to effectively design the app in a way that was not only
+                        more appealing and usable to the user, but also more cost effective--mitigating the need for
+                        more expensive changes later in the development of the app.
+
+                        I used these sketches throughout the rest of the app design to ensure that we were making
+                        progress and furthering the design and vision of Discoverly.
+                    </p>
+                    <picture>
+                        <source srcset="img/discoverly/sm-png/sketches-small.png" media="(max-width:767px)">
+                        <img src="img/discoverly/lg-png/sketches-large.png" alt="Low Fidelity Sketches">
+                    </picture>
+                    <h3>Wireframes</h3>
+                    <p>Using Figma, I translated my first sketches into mid-fidelity wireframes. These gave me a better
+                        sense of placement and were much easier to use with user testing.
+
+                        Then, I polished these renditions by adding relevant imagery, and color, beginning to develop
+                        the style guide.
+
+                        I tested the prototypes throughout the design process, and this allowed for continual
+                        improvements, and avoided any late-stage, drastic changes.
+                    </p>
+                </div>
                 <div>
                     <h2>Test</h2>
-                    <p>Throughout the process of understanding, observing, ideating, and prototyping I was able to conduct tests on potential users.
+                    <p>Throughout the process of understanding, observing, ideating, and prototyping I was able to
+                        conduct tests on potential users.
 
-                        Developing the app iteratively and throughout allowed me to make changes on Thea pp progressively; meaning smaller, cheaper changers at the beginning, and being able to test more of the components with users, throughout.
-                        
-                        I was able to ensure that the needs of the company and stakeholders were more easily incorporated with the needs of the users.
-                        
+                        Developing the app iteratively and throughout allowed me to make changes on Thea pp
+                        progressively; meaning smaller, cheaper changers at the beginning, and being able to test more
+                        of the components with users, throughout.
+
+                        I was able to ensure that the needs of the company and stakeholders were more easily
+                        incorporated with the needs of the users.
+
                         This resulted in a better end product.
                     </p>
                 </div>
-                    </div>
-            
-                </div>
-            </main>
-            <!-- Footer Section-->
-                <footer id="contact">
-                    <div>  
-                        <h2>Get in Touch</h2>
-                        <p> Want to work with me? Feel free to reach out!</p>
-                    </div>
-                    <div>
-                        <a href="mailto:#">Email Me</a>
-                    </div>
-                    <div>
-                        <!-- Social Media Placeholder-->
-                        <a href="https://www.linkedin.com/in/alyssa-claerhout-173a7892/" class="button" target="#">
-                            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"/><path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"/></g></svg>
-                        </a>
-                        <a href="https://www.instagram.com/aclaer.art/" class="button" target="#">
-                            <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_2" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M43.414,4.831H13c-5.283,0-9.581,4.297-9.581,9.58v10.12v20.295c0,5.283,4.298,9.58,9.581,9.58h30.415  c5.283,0,9.58-4.297,9.58-9.58V24.53v-10.12C52.994,9.127,48.697,4.831,43.414,4.831z M46.162,10.544l1.096-0.004v1.091v7.312  l-8.375,0.027l-0.029-8.402L46.162,10.544z M21.131,24.53c1.588-2.197,4.164-3.638,7.076-3.638s5.488,1.441,7.074,3.638  c1.033,1.434,1.652,3.188,1.652,5.088c0,4.811-3.918,8.725-8.727,8.725c-4.812,0-8.726-3.914-8.726-8.725  C19.481,27.718,20.098,25.964,21.131,24.53z M48.164,44.825c0,2.621-2.131,4.75-4.75,4.75H13c-2.62,0-4.751-2.129-4.751-4.75V24.53  h7.4c-0.639,1.572-0.998,3.289-0.998,5.088c0,7.473,6.08,13.557,13.556,13.557c7.475,0,13.555-6.084,13.555-13.557  c0-1.799-0.361-3.516-1-5.088h7.402V44.825z"/></svg>
-                        </a>
-                        <p>Copyright Alyssa-Claerhout 2023</p>
-                    </div>
-                    <a href="contact.html">Contact</a>
-                    <a href="about.html#skills">My Skills</a>
-                </footer>
-    </body>
+            </div>
+
+        </div>
+    </main>
+    <!-- Footer Section-->
+    <footer id="contact">
+        <div>
+            <h2>Get in Touch</h2>
+            <p> Want to work with me? Feel free to reach out!</p>
+        </div>
+        <div>
+            <a href="mailto:#">Email Me</a>
+        </div>
+        <div>
+            <!-- Social Media Placeholder-->
+            <a href="https://www.linkedin.com/in/alyssa-claerhout-173a7892/" class="button" target="#">
+                <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1"
+                    viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g>
+                        <path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z" />
+                        <path
+                            d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z" />
+                    </g>
+                </svg>
+            </a>
+            <a href="https://www.instagram.com/aclaer.art/" class="button" target="#">
+                <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_2" version="1.1"
+                    viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M43.414,4.831H13c-5.283,0-9.581,4.297-9.581,9.58v10.12v20.295c0,5.283,4.298,9.58,9.581,9.58h30.415  c5.283,0,9.58-4.297,9.58-9.58V24.53v-10.12C52.994,9.127,48.697,4.831,43.414,4.831z M46.162,10.544l1.096-0.004v1.091v7.312  l-8.375,0.027l-0.029-8.402L46.162,10.544z M21.131,24.53c1.588-2.197,4.164-3.638,7.076-3.638s5.488,1.441,7.074,3.638  c1.033,1.434,1.652,3.188,1.652,5.088c0,4.811-3.918,8.725-8.727,8.725c-4.812,0-8.726-3.914-8.726-8.725  C19.481,27.718,20.098,25.964,21.131,24.53z M48.164,44.825c0,2.621-2.131,4.75-4.75,4.75H13c-2.62,0-4.751-2.129-4.751-4.75V24.53  h7.4c-0.639,1.572-0.998,3.289-0.998,5.088c0,7.473,6.08,13.557,13.556,13.557c7.475,0,13.555-6.084,13.555-13.557  c0-1.799-0.361-3.516-1-5.088h7.402V44.825z" />
+                </svg>
+            </a>
+            <p>Copyright Alyssa-Claerhout 2023</p>
+        </div>
+        <a href="contact.html">Contact</a>
+        <a href="about.html#skills">My Skills</a>
+    </footer>
+</body>
+
 </html>
