@@ -7,7 +7,7 @@ Primary Color, secondary, etc, all shades of pink;
 #F2BED1
 */
 header {
-  background-color: #2E5256;
+  background-color: #645CAA;
   padding: 10px;
   margin: 0 auto;
   padding: 10px 5px 15px 5px;
@@ -29,7 +29,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #2E5256;
+  color: #645CAA;
 }
 
 h1,
@@ -65,20 +65,20 @@ img {
 
 a:hover,
 a:focus {
-  color: #B3BA72;
+  color: #EBC7E8;
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #E8D7DB;
-  color: #2E5256;
+  background-color: #BFACE0;
+  color: #403F78;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #E8D7DB;
+  border-bottom: 2px solid #BFACE0;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
@@ -91,21 +91,21 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #2E5256;
+  color: #403F78;
   text-transform: uppercase;
-  border: 2px solid #E8D7DB;
+  border: 2px solid #BFACE0;
 }
 
 .learnmore {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #E8D7DB;
-  color: #2E5256;
+  background-color: #BFACE0; 
+  color: #403F78;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px; 
   border-radius: 3px;
-  border-bottom: 2px solid #2E5256;
+  border-bottom: 2px solid #645CAA;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 
@@ -128,7 +128,7 @@ a:focus {
 }
 
 #work .row { 
-  padding-bottom: 25px; border-bottom: 1px solid #2E5256; 
+  padding-bottom: 25px; border-bottom: 1px solid #645CAA; 
   
 }
 
@@ -163,7 +163,7 @@ nav a {
 }
 
 #contact {   /*footer*/
-  background-color: #2E5256;
+  background-color: #645CAA;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
