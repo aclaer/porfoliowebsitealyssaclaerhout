@@ -13,7 +13,7 @@ header {
   padding: 10px 5px 15px 5px;
   border-bottom: 3px solid #FFFFFF;
   text-align: center;
-  padding: 10px 0; 
+  padding: 10px 0;
 }
 
 * {
@@ -99,11 +99,11 @@ a:focus {
 .learnmore {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #BFACE0; 
+  background-color: #BFACE0;
   color: #403F78;
   /* needed to override the default link color */
   font-weight: 400;
-  padding: 10px; 
+  padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid #645CAA;
   /* width of the border, type, color */
@@ -120,20 +120,23 @@ a:focus {
 
 .container {
   padding: 0 15px;
- 
+
 }
 
 .row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
 }
 
-#work .row { 
-  padding-bottom: 25px; border-bottom: 1px solid #645CAA; 
-  
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #645CAA;
+
 }
 
 #hero h1 {
-  text-align: center; /*centers text */
+  text-align: center;
+  /*centers text */
 }
 
 .logo {
@@ -141,18 +144,20 @@ a:focus {
 }
 
 nav ul {
-    lists-style-type: none;
-    padding: 0;
-  }
+  lists-style-type: none;
+  padding: 0;
+}
+
 nav li {
-    display: inline-block;
-  }
+  display: inline-block;
+}
+
 nav a {
-    padding: 0 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #FFFFFF;
-  }
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #FFFFFF;
+}
 
 
 #hero {
@@ -162,7 +167,8 @@ nav a {
   width: 100%;
 }
 
-#contact {   /*footer*/
+#contact {
+  /*footer*/
   background-color: #645CAA;
   padding: 20px 0;
   display: inline-block;
@@ -171,10 +177,52 @@ nav a {
 }
 
 a.contact {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
 a.skills {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
 
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  
+  main {
+    padding: 99px; 
+  }
+  
+  body {
+    font-size: 18px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+  
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {}
