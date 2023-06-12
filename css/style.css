@@ -7,11 +7,11 @@ Primary Color, secondary, etc, all shades of pink;
 #F2BED1
 */
 header {
-  background-color: #645CAA;
+  background-color: #DCD6D8;
   padding: 10px;
   margin: 0 auto;
   padding: 10px 5px 15px 5px;
-  border-bottom: 3px solid #FFFFFF;
+  border-bottom: 3px solid #DCD6D8;
   text-align: center;
   padding: 10px 0;
 }
@@ -29,7 +29,7 @@ body {
   /* Sets the font weight to 300 */
   line-height: 1.6;
   /* Sets the line-height to 1.6 * the font-size */
-  color: #645CAA;
+  color: #2C2C05;
 }
 
 h1,
@@ -65,20 +65,20 @@ img {
 
 a:hover,
 a:focus {
-  color: #EBC7E8;
+  color: #635C4F;
   text-decoration: underline;
 }
 
 .button {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #BFACE0;
-  color: #403F78;
+  background-color: #DCD6D8;
+  color: #635C4F;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #BFACE0;
+  border-bottom: 2px solid #635C4F;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 }
@@ -91,21 +91,21 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #403F78;
+  color: #B0A59D;
   text-transform: uppercase;
-  border: 2px solid #BFACE0;
+  border: 2px solid #635C4F;
 }
 
 .learnmore {
   display: inline-block;
   /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #BFACE0;
-  color: #403F78;
+  background-color: #B0A59D;
+  color: #2C2C05;
   /* needed to override the default link color */
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #645CAA;
+  border-bottom: 2px solid #635C4F;
   /* width of the border, type, color */
   transition: 0.2s opacity;
 
@@ -126,6 +126,13 @@ a:focus {
 .row {
   margin: 25px 0;
   /* 25px top and bottom, 0 left and right */
+
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #work .row {
@@ -169,7 +176,7 @@ nav a {
 
 #contact {
   /*footer*/
-  background-color: #645CAA;
+  background-color: #DCD6D8;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -217,8 +224,9 @@ Medium devices (640px and larger)
 
   [class*="col-"] {
     float: left;
+    padding: 10px
   }
-  
+
 }
 
 /* ==============================
