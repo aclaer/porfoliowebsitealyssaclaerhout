@@ -80,7 +80,7 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #635C4F;
   /* width of the border, type, color */
-  transition: 0.2s opacity;
+  transition: 0.2s opacity; 
 }
 
 .button:hover {
@@ -96,20 +96,7 @@ a:focus {
   border: 2px solid #635C4F;
 }
 
-.learnmore {
-  display: inline-block;
-  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #B0A59D;
-  color: #2C2C05;
-  /* needed to override the default link color */
-  font-weight: 400;
-  padding: 10px;
-  border-radius: 3px;
-  border-bottom: 2px solid #635C4F;
-  /* width of the border, type, color */
-  transition: 0.2s opacity;
 
-}
 
 #social-media-icons svg {
   width: 20px;
@@ -120,7 +107,7 @@ a:focus {
 
 .container {
   padding: 0 15px;
-
+  max-width: 1200px; 
 }
 
 .row {
@@ -207,7 +194,7 @@ Medium devices (640px and larger)
   }
   
   main {
-    padding: 99px; 
+   
   }
   
   body {
@@ -227,12 +214,64 @@ Medium devices (640px and larger)
     padding: 10px
   }
 
+  #about-body h3 { 
+    margin-top: 0;
+  }
+
 }
 
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+  
+  main {
+   
+  }
+  
+  body {
+    font-size: 18px;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  .col-lg-7 {
+    width: 60%;
+  }
+
+  .col-lg-5 {
+    width: 40%
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 10px
+  }
+
+  #about-body h3 { 
+    margin-top: 0;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
 
 /* ==============================
 X-large devices (1440px or larger)
