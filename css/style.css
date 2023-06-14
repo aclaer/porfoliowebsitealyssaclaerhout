@@ -61,6 +61,8 @@ h4 {
 
 img {
   width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 a:hover,
@@ -80,7 +82,7 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #635C4F;
   /* width of the border, type, color */
-  transition: 0.2s opacity; 
+  transition: 0.2s opacity;
 }
 
 .button:hover {
@@ -107,7 +109,7 @@ a:focus {
 
 .container {
   padding: 0 15px;
-  max-width: 1200px; 
+  max-width: 1200px;
 }
 
 .row {
@@ -115,6 +117,8 @@ a:focus {
   /* 25px top and bottom, 0 left and right */
 
 }
+
+
 
 .row::after {
   content: "";
@@ -179,6 +183,37 @@ a.skills {
 }
 
 /* ==============================
+Sun and clouds
+================================= */
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun {
+  animation: 4s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+/* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
@@ -192,11 +227,9 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
   }
-  
-  main {
-   
-  }
-  
+
+  main {}
+
   body {
     font-size: 18px;
   }
@@ -214,7 +247,7 @@ Medium devices (640px and larger)
     padding: 10px
   }
 
-  #about-body h3 { 
+  #about-body h3 {
     margin-top: 0;
   }
 
@@ -234,11 +267,9 @@ Large devices (1024px or larger)
     float: right;
     margin-top: 4px;
   }
-  
-  main {
-   
-  }
-  
+
+  main {}
+
   body {
     font-size: 18px;
   }
@@ -260,7 +291,7 @@ Large devices (1024px or larger)
     padding: 10px
   }
 
-  #about-body h3 { 
+  #about-body h3 {
     margin-top: 0;
   }
 
@@ -277,3 +308,4 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {}
+
