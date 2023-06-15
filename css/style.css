@@ -67,7 +67,7 @@ img {
 
 a:hover,
 a:focus {
-  color: #635C4F;
+  color: #DCD6D8;
   text-decoration: underline;
 }
 
@@ -154,7 +154,7 @@ nav a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #FFFFFF;
+  color: #635C4F;
 }
 
 
@@ -228,7 +228,10 @@ Medium devices (640px and larger)
     margin-top: 4px;
   }
 
-  main {}
+  h1 {
+    font-size: 3.75em;
+    font-weight: 700;
+  }
 
   body {
     font-size: 18px;
