@@ -218,7 +218,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
   header {
-    text-align: unset;
+    text-align: center;
     padding: 20px 0 13px;
   }
 
@@ -250,7 +250,6 @@ Medium devices (640px and larger)
   #about-body h3 {
     margin-top: 0;
   }
-
 }
 
 /* ==============================
@@ -271,7 +270,7 @@ Large devices (1024px or larger)
   main {}
 
   body {
-    font-size: 18px;
+    font-size: 24px;
   }
 
   #hero span {
