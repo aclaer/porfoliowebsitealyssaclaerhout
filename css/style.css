@@ -225,6 +225,11 @@ Medium devices (640px and larger)
   #home-body .row .col-lg-5 p {
     margin-top: 0;
   }
+
+  #about-body .row .col-lg-5 h2 {
+    margin-top: 0;
+  }
+  
   nav {
     width: auto;
     float: right;
