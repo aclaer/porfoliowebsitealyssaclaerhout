@@ -181,6 +181,10 @@ a.contact {
 a.skills {
   color: #FFFFFF;
 }
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
 
 /* ==============================
 Sun and clouds
@@ -212,6 +216,7 @@ Sun and clouds
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -265,8 +270,8 @@ Medium devices (640px and larger)
     display: inline-block;
   }
   .navtoggle li:not(:last-child) {
-    display: none;
-  }
+    display: inline-block;
+  }  
 }
 
 /* ==============================
@@ -316,7 +321,9 @@ Large devices (1024px or larger)
     margin-left: auto;
     margin-right: auto;
   }
-
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 
 
