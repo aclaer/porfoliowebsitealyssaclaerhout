@@ -206,6 +206,10 @@ nav a {
   color: #635C4F;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 
 #hero {
   background-color: #FFFFFF;
@@ -348,6 +352,7 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  
   header {
     text-align: unset;
     padding: 20px 0 13px;
