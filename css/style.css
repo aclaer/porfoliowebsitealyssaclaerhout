@@ -10,7 +10,7 @@ main {
   padding-top: 45px;
 }
 header {
-  background-color: #DCD6D8;
+  background-color: #dcd6d8;
   padding: 10px;
   box-shadow: 0 5px 5px -1px #f0faf7;
   -webkit-box-shadow: 0 5px 5px -1px #f0faf7;
@@ -191,7 +191,7 @@ a:focus {
 }
 
 nav ul {
-  lists-style-type: none;
+  list-style-type: none;
   padding: 0;
 }
 
