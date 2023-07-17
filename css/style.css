@@ -292,7 +292,7 @@ Medium devices (640px and larger)
   }
 
   #about-body .row .col-lg-5 h2 {
-    margin-top: 0;
+    margin-top: 100;
   }
   
   nav {
@@ -314,7 +314,6 @@ Medium devices (640px and larger)
   }
 
   .col-md-6 {
-    margin-top: 100;
     width: 50%;
   }
 
