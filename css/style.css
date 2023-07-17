@@ -314,6 +314,7 @@ Medium devices (640px and larger)
   }
 
   .col-md-6 {
+    margin-top: 100;
     width: 50%;
   }
 
